@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+    <SETTINGS cameraid="0">
+        <COMMAND>
+            <TITLE>NR 100M N77 3750MHz ANT5 26dBm</TITLE>
+            <START>NR_N77_100M_Tx_On_ANT5</START>
+            <STOP>Tx_off_NR</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR 100M N77 3750MHz ANT8 26dBm</TITLE>
+            <START>NR_N77_100M_Tx_On_ANT8</START>
+            <STOP>Tx_off_NR</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR 100M N77 2698MHz ANT9 26dBm</TITLE>
+            <START>NR_N77_100M_Tx_On_ANT9</START>
+            <STOP>Tx_off_NR</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 20M 2.4GHz 5815MHz ANT5 17.5dBm</TITLE>
+            <CREATE>WLAN_SWITCH_TEST_MODE</CREATE>
+            <START>WLAN_5GHz_Tx_on_ANT5</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 20M 2.4GHz 2472MHz ANT3 19dBm</TITLE>
+            <START>WLAN_2.4GHz_Tx_on_ANT3</START>
+            <STOP>Tx_off_2.4G</STOP>
+            <DESTROY>WLAN_SWITCH_PRODUCT_MODE</DESTROY>
+        </COMMAND>
+    </SETTINGS>
+    <SETTINGS cameraid="1">
+        <COMMAND>
+            <TITLE>NR 100M N1 MHz ANT1 24.5dBm</TITLE>
+            <START>NR_N1_100M_Tx_On_ANT1</START>
+            <STOP>Tx_off_NR</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR 100M N25 MHz ANT1 24.5dBm</TITLE>
+            <START>NR_N25_100M_Tx_On_ANT1</START>
+            <STOP>Tx_off_NR</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR 100M N41 MHz ANT1 26dBm</TITLE>
+            <START>NR_N41_100M_Tx_On_ANT1</START>
+            <STOP>Tx_off_NR</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR 100M N77 3750MHz ANT2 26dBm</TITLE>
+            <START>NR_N77_100M_Tx_On_ANT2</START>
+            <STOP>Tx_off_NR</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR 100M N41 2698MHz ANT6 26dBm</TITLE>
+            <START>NR_N41_100M_Tx_On_ANT6</START>
+            <STOP>Tx_off_NR</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR 100M N77 3750MHz ANT8 26dBm</TITLE>
+            <START>NR_N77_100M_Tx_On_ANT8</START>
+            <STOP>Tx_off_NR</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>LTE 20M B2 1880MHz ANT1 24.5dBm</TITLE>
+            <START>LTE_B2_Tx_On_ANT1</START>
+            <STOP>Tx_off_LTE</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>LTE 20M B4 1730MHz ANT1 24.5dBm</TITLE>
+            <START>LTE_B4_Tx_On_ANT1</START>
+            <STOP>Tx_off_LTE</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>LTE 20M B5 840MHz ANT1 24.5dBm</TITLE>
+            <START>LTE_B5_Tx_On_ANT1</START>
+            <STOP>Tx_off_LTE</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>LTE 20M B7 2540MHz ANT1 24.5dBm</TITLE>
+            <START>LTE_B7_Tx_On_ANT1</START>
+            <STOP>Tx_off_LTE</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>LTE 20M B8 900MHz ANT1 24.5dBm</TITLE>
+            <START>LTE_B8_Tx_On_ANT1</START>
+            <STOP>Tx_off_LTE</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>LTE 20M B12 710MHz ANT1 24.5dBm</TITLE>
+            <START>LTE_B12_Tx_On_ANT1</START>
+            <STOP>Tx_off_LTE</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>LTE 20M B13 782MHz ANT1 24.5dBm</TITLE>
+            <START>LTE_B13_Tx_On_ANT1</START>
+            <STOP>Tx_off_LTE</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>LTE 20M B14 792MHz ANT1 24.5dBm</TITLE>
+            <START>LTE_B14_Tx_On_ANT1</START>
+            <STOP>Tx_off_LTE</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>LTE 20M B20 850MHz ANT1 24.5dBm</TITLE>
+            <START>LTE_B20_Tx_On_ANT1</START>
+            <STOP>Tx_off_LTE</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>LTE 20M B40 2350MHz ANT1 24.5dBm</TITLE>
+            <START>LTE_B40_Tx_On_ANT1</START>
+            <STOP>Tx_off_LTE</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>LTE 20M B71 680MHz ANT1 24.5dBm</TITLE>
+            <START>LTE_B71_Tx_On_ANT1</START>
+            <STOP>Tx_off_LTE</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 20M 2.4GHz 2472MHz ANT3 19dBm</TITLE>
+            <CREATE>WLAN_SWITCH_TEST_MODE</CREATE>
+            <START>WLAN_2.4GHz_Tx_on_ANT3</START>
+            <STOP>Tx_off_2.4G</STOP>
+            <DESTROY>WLAN_SWITCH_PRODUCT_MODE</DESTROY>
+        </COMMAND>
+    </SETTINGS>
+    <SETTINGS cameraid="2">
+        <COMMAND>
+            <TITLE>NR 100M N77 3750MHz ANT5 26dBm</TITLE>
+            <START>NR_N77_100M_Tx_On_ANT5</START>
+            <STOP>Tx_off_NR</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR 100M N77 3750MHz ANT8 26dBm</TITLE>
+            <START>NR_N77_100M_Tx_On_ANT8</START>
+            <STOP>Tx_off_NR</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>NR 100M N77 2698MHz ANT9 26dBm</TITLE>
+            <START>NR_N77_100M_Tx_On_ANT9</START>
+            <STOP>Tx_off_NR</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 20M 2.4GHz 5815MHz ANT5 17.5dBm</TITLE>
+            <CREATE>WLAN_SWITCH_TEST_MODE</CREATE>
+            <START>WLAN_5GHz_Tx_on_ANT5</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 20M 2.4GHz 2472MHz ANT3 19dBm</TITLE>
+            <START>WLAN_2.4GHz_Tx_on_ANT3</START>
+            <STOP>Tx_off_2.4G</STOP>
+            <DESTROY>WLAN_SWITCH_PRODUCT_MODE</DESTROY>
+        </COMMAND>
+    </SETTINGS>
+</CONFIG>
